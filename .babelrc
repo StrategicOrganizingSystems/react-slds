@@ -1,0 +1,16 @@
+{
+    "presets": [
+      "react",
+      "stage-3",
+      ["env", {
+      "loose": true
+      }]
+    ],
+     "minified":true,
+     "plugins": ["transform-class-properties"],
+     "ignore": [
+       "setupTests.js",
+       "*test.js"
+     ]
+
+}
